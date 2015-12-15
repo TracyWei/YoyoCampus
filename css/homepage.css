@@ -1,0 +1,194 @@
+header nav a:not(.button) > .icon{
+	font-size: 1.5rem;
+	float: left;
+}
+.locationNav label{
+	font-size: 1.3rem;
+}
+#choose-campus h4{
+	color: rgb(6,193,174);
+	text-align: left;
+	margin-left: 20px;
+}
+#choose-campus li{
+	text-align: left;
+}
+#search-input{
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #333;
+	border-radius: 3px;
+	width: 85%;
+	height: 30px;
+	opacity: 0.5;
+	border:none;
+	color: #fff;
+}
+header nav.left{
+	width: 88%;
+}
+#search-show{
+	margin-top: 15px;
+}
+#search-show h4{
+	color: #666;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin:0px 0px 0px 10px;
+}
+.search_goodsname{
+	float: left;
+	color: #333;
+	font-size: 1.2rem;
+}
+.search_price{
+	float: right;
+	color: #E74C3C;
+}
+.circle{
+	margin-top: 5px;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #16A085;
+	border-radius: 50%;
+	position: relative;
+	top: 1px;
+}
+.search_seller{
+	display: inline;
+	float: left;
+}
+.search_seller span{
+	padding-bottom: 5px;
+	color: #333;
+	font-size: 1rem;
+}
+.search_discount{
+	display: inline;
+	float: right;
+}
+.square-full{
+	margin-top: 5px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background-color: #E74C3C;
+	position: relative;
+	top: 1px;
+	margin-right:10px;
+	color: #fff;
+	font-size: 8px;
+	text-align: center;
+}
+.square-cut{
+	margin-top: 5px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background-color: #F1C40F;
+	position: relative;
+	top: 1px;
+	color: #fff;
+	font-size: 8px;
+	text-align: center;
+}
+.searchMore span{
+	font-size: 0.8rem;
+	color: #555;
+}
+.searchMore .icon{
+	font-size: 1rem;
+	color: #555;
+}
+.list>li > a:not([class*="button"]){
+	padding-left: 5px;
+}
+.eachpart{
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.cleanHistory{
+	text-align: center;
+	font-size: 1.3rem;
+}
+.cleanHistory img{
+	width: 22px;
+	padding-bottom: 5px;
+}
+.historyRecord{
+	font-size: 1.2rem;
+}
+.historyRecord img{
+	width: 18px;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	font-size: 1.2rem;
+}
+.none{
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	color: #555;
+}
+
+.none img{
+	width: 100%;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+.mySliderZone{
+	height: 30%;
+	background-color: #FFFF99;
+	width: 1280px; 
+	transition-duration: 200ms; 
+	transform: translate3d(-960px, 0px, 0px);
+}
+.sliderPic{
+	margin-top: 5px;
+	text-align: center; 
+	width: 100%; 
+	height:30px; 
+	float: left; 
+	display: block;
+}
+.kinds{
+	background-color: #fff;
+}
+.grid.onerow{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.grid.onerow:nth-child(1){
+	padding-top: 10px;
+}
+.grid.onerow:nth-child(2){
+	/*border-bottom: solid 1px #aaa;*/
+	box-shadow: 1px 1px #aaa;
+}
+.col-1.onekind{
+	border: none;
+	/*margin-top: 10px;*/	
+}
+.onekind img{
+	width: 50%;
+}
+.onekind label{
+	font-size: 0.5rem;
+	margin-left:auto;
+	margin-right: auto;
+	color: #555;
+}
+.onekind-pic{
+	text-align: center;
+}
+.onekind-word{
+	text-align: center;
+}
+
+
+
+
+
+
+

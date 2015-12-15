@@ -1,0 +1,292 @@
+#search_btn{
+	margin: auto 10px auto 5px;
+}
+
+.info_btn{
+	border:1px solid #666;
+	padding-bottom: -1px;
+}
+.shelf_btn{
+	height:3rem;
+	font-size: 1.2rem;
+	border-radius: 0px;
+	font-weight: 500;
+	background-color: #fff;
+}
+
+.shelf_btn li{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0px;
+}
+
+.control-group li > a {
+    color: #666666;
+    margin-top: 10px;
+}
+.control-group li.active {
+    background-color: #fff;
+    border-bottom-width: 3px;
+    /*border-bottom-color: rgb(6,193,174);*/
+    border-bottom: 2px solid rgb(6,193,174);
+	border-radius: 0px;
+}
+.control-group li.active a {
+    color: rgb(6,193,174);
+    border-color: rgb(6,193,174);
+}
+.control-group li {
+    border-color: #fff;
+}
+.xianzhi_div{
+	background-color: #fff;
+	margin-top:10px;
+	margin-bottom:20px;
+
+}
+.xianzhi_info{
+	
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.goods_img{
+	width: 120px;
+	height: 80px;
+	background-color:#f6ba5a;
+	margin-right: 10px;
+}
+.list li.selected{
+    background-color: rgb(6,193,174) !important;
+}
+.list>li {
+    position: relative;
+    padding: 10px;
+}
+.xianzhi_info.list>li:first-child{
+	border-top:none;
+}
+.icon_grid{
+
+	padding: 5px;
+	height: 0.9rem;
+    font-size: 0.8rem;
+}
+.icon_grid img{
+	height: 1rem;
+    
+}
+.name_info{
+   color:  rgb(6,193,174) !important;
+   padding: 5px;
+}
+.goods_info p{
+	font-size: 2rem;
+	padding: 5px;
+}
+.goods_price p{
+	font-weight: 999;
+	color: red !important;
+	font-size: 1.5rem !important;
+	margin-top: 45px;
+	margin-left: 20px;
+}
+#add_goods{
+	width: 50px; 
+	height: 50px; 
+	bottom: 10px; 
+	right: 10px; 
+	position: fixed; 
+	z-index: 999999;
+}
+
+
+
+/*下面是加商品的css*/
+.add_title{
+	    padding: 5px 15px;
+}
+
+.div_add .upload-pic{
+	width: 100%;
+}
+.div_goods_img{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	height: 100px;
+	
+}
+#goods_png{
+	height: 100px;
+	position: absolute;
+z-index:-1;
+}
+#up_goods_img{
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+
+}
+.next_btn{
+	text-align: center;
+    padding: 0px 30px;
+}
+.step_word{
+	padding: 15px;
+	color: #666;
+}
+.middle_word p{
+	text-align: center;
+}
+.middle_word{
+	margin-bottom: 20px;
+}
+.complete-goodsinfo{
+	margin-top: 15px;
+	background-color: #fff;
+	height: 100%;
+}
+.goods_info h5{
+	font-size: 1.2rem;
+	color: #333;
+}
+.list>li p{
+	font-size: 8px;
+	color: #333;
+}
+.youhui-pic{
+	padding-left: 5px;
+	padding-top: 10px;
+}
+.youhui-padding{
+	padding-top: 10px;
+}
+.operation-btn{
+	height: 25px;
+	padding: 0 12px;
+	font-size: 1.1em;
+	line-height: 22px;
+	background-color: #fff;
+	color: rgb(6,193,174);
+	border:1px solid rgb(6,193,174);
+}
+.btn-margin{
+	display: inline;
+	margin-left: 10px;
+}
+.youhui-pic img{
+	width: 60%;
+}
+.fenlei-btn{
+	padding-left:20px;
+	padding-right: 20px;
+}
+.button.fenlei-btn,.button.fenlei-btn-done{
+	background-color: rgb(6,193,174);
+	color: #fff;
+	font-size: 1.2rem;
+}
+.fenlei-margin{
+	float: left;
+}
+.fenlei-margin1{
+	float: right;
+}
+.fenlei-btn-done{
+	text-align: center;
+}
+.button.fenlei-btn{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.button.fenlei-btn{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.bianji-icon,.fenge-icon,.shanchu-icon{
+	display: inline;
+	padding-bottom: 10px;
+}
+.bianji-icon,.shanchu-icon img{
+	width: 18px;
+}
+.icons{
+	display: inline;
+	/*margin-left: 100px;*/
+	float: right;
+	margin-right: 10px;
+}
+.list-span-right{
+	margin-left: 10px;
+}
+.delete-types{
+	height:25%;
+	width: 70%;
+	margin: auto;
+	background-color: #fff;
+	margin-top: 55%;
+	z-index: 101;
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+.delete-types h4{
+	margin-left: 10px;
+	color: #339999;
+}
+.delete-types p{
+	padding: 0px 30px;
+	color: #666;
+	font-size: 1.2rem;
+	line-height:1.8rem;
+}
+.delete-confirm{
+	margin-top: 30px;
+}
+.delete-confirm a{
+	color: #333;
+	font-size: 1.5rem;
+}
+.cancel-margin{
+	float: left;
+	margin-left: 30px;
+}
+.delete-margin{
+	float: right;
+	margin-right: 30px;
+}
+.delete-confirm img{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

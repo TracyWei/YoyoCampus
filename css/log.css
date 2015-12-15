@@ -1,0 +1,409 @@
+#getCodeTiming{
+	display: none;
+}
+.control-group li.active{
+	background-color:transparent;
+}
+.control-group li.active a, .control-group li.active .icon{
+	color: #555;
+}
+.nephritis{
+	background-color: rgb(6,193,174)!important;
+}  
+.login_fast_logo{
+	width:30%;
+}
+.fast_login_word{
+	color:#9a9999;
+}
+#login_btn{
+	margin-bottom: 5px;
+	margin-top: 34px;
+}
+.control-group li > a{
+	color:#666666; 
+	font-size: 1.2rem;
+}
+.input_info{
+	margin-top: 20px;
+}
+.control-group li{
+	border-top:none;
+    border-right-color: #999999;
+    border-bottom:none;
+    border-left-color: #999999;
+    padding-top:0px;
+    padding-bottom: 0px; 
+}
+#forget_btn{
+	border-left:none;
+	}
+#signup_btn{
+	border-right:none;
+}
+#signup_btn a{
+	color: rgb(6,193,174);
+}
+.more_btn{
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+}
+.fast_login_word{
+	margin-top: 30px;
+	margin-bottom: 7.5px;
+}
+.more_login li{
+	border:none;
+}
+.more_login img{
+	width: 25px;
+}
+.word{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: rgb(6,193,174);
+}
+#more_store_btn{
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+#back_btn{
+	margin-top: 10px;
+	margin-bottom: 7.5px;
+}
+.icon{
+	font-size: 18px;
+}
+/*.input_info .input-group{
+	box-shadow: 0 1px 1px 1px #cbcbcb;
+}
+*/
+
+.left{
+	text-align: left!important;
+}
+article{
+	background-color:#f0efed;
+}
+html{
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+}
+.logo-middle{
+	border-radius: 50%;
+	width: 37%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#log-div{
+	text-align: center;
+	padding:0px 30px;
+}
+#log-div .input-group .input-row label {
+    width: auto;
+}
+.yo-header{
+	line-height: 50px;
+	height: 50px;
+	background-color:rgb(6,193,174);
+	border:none;
+}
+.header-label{
+	font-size: 1.5rem;
+}
+#log-div .input-group{
+	margin-bottom: 8px;
+}
+#log-div .input-row{
+	background-color: #fff;
+	border-color: rgb(239,239,236);
+	border-radius: 5px;
+	box-shadow: 0 1px 1px 1px #cbcbcb;
+	font-size: 0.8rem;
+}
+.yo-article{
+	background-color: rgb(239,239,236);
+}
+.input-group.yo-input{
+	border:none;
+}
+.get-code{
+	position: relative;
+	/*width:35%;*/
+	height:18px;
+	background-color: #fff;
+	top: 12px;
+	right: 10px;
+	border-radius: 2px;
+	border:1px solid rgb(6,193,174);
+	box-shadow: 0 0 1px #edeff0;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.get-code p{
+	padding-top: 1px;
+	color:rgb(6,193,174);
+	font-size: 0.6rem;
+}
+.get-code-grey{
+	border:1px solid #cbcbcb;
+}
+.get-code-grey p{
+	color:#a1a2a2;
+}
+.confirm-signup{
+	margin-top: 20%;
+	text-align: center;
+}
+#log-div .sign-up-btn{
+	text-align: center;
+	background-color:rgb(6,193,174) ;
+}
+.sign-up-btn span{
+	text-align: center;
+	display: block;
+	font-size: 1.4rem;
+}
+.yo-btn{
+	background-color: rgb(6,193,174);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+#bind-first{
+	margin-top: 20%;
+}
+.get-code-bind{
+	position: relative;
+	height:18px;
+	background-color: #fff;
+	top: 12px;
+	right: 10px;
+	border-radius: 3px;
+	border:1px solid rgb(6,193,174);
+	box-shadow: 0 0 1px #edeff0;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.get-code-bind p{
+	padding-top: 2px;
+	color:rgb(6,193,174);
+	font-size: 0.6rem;
+}
+#div-info .upload-pic{
+	padding-top: 1.5rem;
+	background-color: #fff;
+	padding-bottom: 1.2rem;
+}
+#div-info .upload-btn{
+	text-align: center;
+	height: 70px;
+	width: 70px;
+	background-color:#f6ba5a;
+	border:none;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.upload-btn span{
+	font-size: 3rem;
+	color: #fff;
+	margin-top: auto;
+	display: block;
+	line-height: 5rem;
+}
+#getshop-info .upload-pic{
+	padding-top: 1.5rem;
+	background-color: #fff;
+	padding-bottom: 1.2rem;
+	border-bottom: 1px solid #bbb;
+}
+#getshop-info .upload-btn{
+	text-align: center;
+	height: 70px;
+	width: 70px;
+	background-color:#f6ba5a;
+	border:none;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+}
+#div-info .list-info{
+	margin-top: 2.5rem;
+}
+.list>li{
+	padding: 10px 20px 10px 20px;
+	font-size: 1.2rem;
+	/*z-index: 100;*/
+}
+.filePrew{
+	opacity: 0;
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	right: 50%;
+	left: 38%;
+}
+.title.myfontsize{
+	font-size: 1.8rem;
+}
+/*******店铺-魏远卓*******/
+.shop-section{
+	background-color: rgb(239,239,236);
+}
+.yoyo-footer{
+	background-color: rgb(239,239,236);
+}
+.footer-color{
+	color: #333;
+}
+.yoyo-footer p{
+	color: #333;
+}
+footer > a.active{
+    color: rgb(6,193,174);
+}
+footer .active .icon{
+    color: rgb(6,193,174);
+}
+footer .active .myp{
+    color: rgb(6,193,174);
+}
+.portrait{
+	background-color: #fff;
+	height: 30%;
+	text-align: center;
+	padding-top: 25px;
+}
+.put-portrait{
+	height: 70px;
+	width: 70px;
+	background-color: #f6ba5a;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.show-ursename{
+	color: #333;
+	line-height: 2rem;
+}
+#getshop-info .complete-shopinfo{
+	margin-top: 15px;
+	background-color: #fff;
+	height: 100%;
+}
+#getshop-info .form-line{
+	/*padding-top: 20px;*/
+	padding-left: 10%;
+}
+#getshop-info .info-item{
+	color: #333;
+	font-size: 1.2rem;
+}
+#getshop-info .shop-input{
+	width: 65%;
+	background: #fff;
+	padding: 0px 5px 0px 5px;
+	border-radius: 0px;
+	margin-left:5px;
+	height: 6%;
+	border:none;
+	border-top: 1px #fff solid;
+	border-left: 1px #fff solid;
+	border-right: 1px #fff solid;
+	border-bottom: 1px #ddd solid
+}
+#getshop-info .text-line{
+	padding-left: 10%;
+	margin-top: 10px;
+	width: 90%;
+}
+textarea{
+	border-radius: 0px;
+}
+#getshop-info .sign-up-btn{
+	margin-top: 5%;
+	padding-left: 10%;
+	width: 90%;
+}
+.type-of-shop{
+	height: 100%;
+	background: rgba(102,102,102,0.5);
+	z-index: 100;
+	position: absolute;
+	bottom: 0;
+	top:0;
+	left: 0;
+	right: 0;
+	vertical-align: middle;
+	display: none;
+}
+.choose-type{
+	min-height:150px;
+	width: 80%;
+	margin: auto;
+	background-color: #fff;
+	margin-top: 55%;
+	z-index: 101;
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	/*display: none;*/
+}
+.choose-type h5{
+	padding-top: 15px;
+	padding-bottom: 5px;
+	margin-left: 15px;
+	color: #555;
+}
+.choose-type .choose-3{
+	margin: auto;
+	width: 80%;
+	/*background-color: #ddd;*/
+}
+.choose-type ul.list{
+	background-color: #eee;
+}
+.choose-type .list>li:first-child{
+	border-top:none;
+}
+.choose-type .list>li{
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	font-size: 1.1rem;
+}
+.choose-type .shoptype-btn{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 80%;
+	margin: auto;
+	height: 10%;
+}
+.col-1.to-center{
+	text-align: center;
+	color: #555;
+}
+#getshop-info .notice{
+	position: absolute;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 1.1rem;
+	color: #fff;
+	background-color: #ff6666;
+	width: 100%;
+	height: 33px;
+	z-index: 100;
+	display: none;
+}
+.click-grey{
+	background-color: #aaa;
+}
+.right a{
+	padding: 0px 5px;
+	font-size: 18px;
+}
+

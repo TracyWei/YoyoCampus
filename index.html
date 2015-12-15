@@ -1,0 +1,93 @@
+<!DOCTYPE >
+<html ng-app="yoyoApp">
+<head>
+    <meta charset="utf-8">
+    <title>yoyo</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="css/Jingle.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/log.css">
+    
+</head>
+<body>
+<div id="section_container"  ><!--页面容器-->
+    <section id="index_section" class="active" ng-controller="indexController">
+        <header class="yo-header">
+            <h1 class="title">登陆</h1>
+        </header>
+
+        <article class="active" data-scroll="true">
+            <div id="log-div">
+                <!-- <img src="img/logo.jpg" class="logo-middle"> -->
+                 <img src="img/logo.jpg" class="logo-middle">
+                 <div class="input_info">
+
+                     <form class="input-group yo-input">
+                        <div class="input-row">
+                            <label ><img src="img/icon1.png" style="width:50%"></label>
+                            <input type="text" placeholder="请输入手机号" id="loginPhoneNum">
+                        </div>
+                    </form>   
+                    <form class="input-group yo-input"> 
+                        <div class="input-row ">
+                            <label ><img src="img/icon3.png" style="width:50%"></label>
+                            <input type="password" placeholder="请输入密码" id="loginPsword">
+                        </div>
+                    </form>
+                </div>
+                <a href="#" class="button block nephritis" id="login_btn" onclick="Index()">登  录</a>
+ 
+
+                <ul class="control-group more_btn">
+                    
+                    <li id="forget_btn"><a href="#findpw_section" data-target="section">忘记密码</a></li>
+                    <li id="signup_btn"><a href="#signup_section" data-target="section">马上注册</a></li>
+                </ul>
+
+                <div class="fast_login_word">
+                    <p>   —————— 快速登录 ——————  </p>
+                    
+
+                 
+                 <ul class="control-group more_login">
+                    
+                    <li><a href="#"><img src="img/weixin.jpg" class="login_fast_logo">
+                        <p>微信登录</p></a></li>
+                    <li><a href="#"><img src="img/weibo.jpg" class="login_fast_logo"><p>微博登录</p></a></li>
+                </ul>
+            </div>
+        </div>
+        </article>
+    </section>
+
+</div>
+<script type="text/javascript" src="js/lib/angular.min.js"></script>
+<script type="text/javascript" src="js/app/controller.js"></script>
+<script type="text/javascript" src="js/lib/zepto.js"></script>
+<script type="text/javascript" src="js/lib/iscroll.js"></script>
+<script type="text/javascript" src="js/lib/template.min.js"></script>
+<script type="text/javascript" src="js/lib/Jingle.debug.js"></script>
+<script type="text/javascript" src="js/lib/zepto.touch2mouse.js"></script>
+<script type="text/javascript" src="js/app/app.js"></script>
+<script type="text/javascript" src="js/app/bianjifenlei.js"></script>
+<script type="text/javascript" src="js/app/Index.js"></script>
+<script type="text/javascript" src="js/app/signup.js"></script>
+<script type="text/javascript" src="js/app/findpw.js"></script>
+<script type="text/javascript" src="js/app/xianzhi.js"></script>
+<script type="text/javascript" src="js/app/travel.js"></script>
+<script type="text/javascript" src="js/app/clothes.js"></script>
+<script type="text/javascript" src="js/app/driver.js"></script>
+<script type="text/javascript" src="js/app/study.js"></script>
+<script type="text/javascript" src="js/app/personalShop.js"></script>
+<!-- <script type="text/javascript" src="js/lib/backbone.js"></script> -->
+<script type="text/javascript" src="js/lib/underscore.js"></script>
+<script type="text/javascript" src="js/lib/head.min.js"></script>
+<script type="text/javascript" src="js/app/choose-campus.js"></script>
+
+
+
+</body>
+</html>

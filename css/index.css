@@ -1,0 +1,20 @@
+#baseInfo .input-noborder{
+	width: 65%;
+	background: #fff;
+	padding: 0px 5px 0px 5px;
+	border-radius: 0px;
+	margin-left:5px;
+	height: 6%;
+	border:none;
+	border-top: 1px #fff solid;
+	border-left: 1px #fff solid;
+	border-right: 1px #fff solid;
+	border-bottom: 1px #fff solid;
+	margin-bottom: 0px;
+}
+.select-noborder{
+	border: none;
+	background:none;
+	box-shadow: none;
+	width: 65%;
+}

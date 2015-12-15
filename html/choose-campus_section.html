@@ -1,0 +1,27 @@
+<section id="choose-campus_section" ng-controller="locationController">
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+	<link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <header class="yo-header">
+        <nav class="left locationNav">
+            <a href="#homepage_section"  data-target="back">
+                <i class="icon previous">
+                </i>
+                <label class="header-label">选择校区</label>
+            </a>
+        </nav>
+    </header>
+    <article class="active" data-scroll="true" id="choose-campus">
+    	<h4>江宁校区</h4>
+    	<ul class="list" >
+    	   <li  data-selected="selected" class="loc_click" ng-repeat="loc in locations" ng-click="getLocation(loc)">{{loc}}</li>
+        </ul>
+    </article>
+</section>
+<script type="text/javascript">
+console.log("choose recompile");
+var section = $("#choose-campus_section")[0];
+angular.element(section).injector().invoke(function($compile) {
+    var scope = angular.element(section).scope();
+    $compile(section)(scope);
+});
+</script>

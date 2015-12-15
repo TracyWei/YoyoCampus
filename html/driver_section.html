@@ -1,0 +1,86 @@
+<section id="driver_section" class="active" ng-controller="driverController">
+	<link rel="stylesheet" href="css/xianzhi.css">
+	<link rel="stylesheet" href="css/z_xianzhi_travel.css">
+	<header class="yo-header">
+		<nav class="left ">
+			<a href="#homepage_section" data-target="back">
+				<i class="icon previous">
+				</i>
+				<label class="header-label">驾校</label>
+			</a>
+		</nav>
+		<nav class="right ">
+			<div class="icon loop sort_btn"></div>
+			<div class="icon search search_btn"></div>
+		</nav>
+	</header>
+	<article class="active yo-article" data-scroll="true">
+		<div class="xianzhi-info">
+			<div class="contain_two">
+				<div class="order grid info_btn">
+					<ul class="control-group shelf_btn">
+						<li class="col-1" ng-click=reByOrder("view_number")>
+							<img src="img/travel_btn_hot.png">
+							<span>人气最高</span>
+						</li >
+						<!-- 					<li class="col-1">
+								<img src="img/travel_button_hightest.png">
+							评价最高
+						</li> -->
+						<li class="col-1" ng-click=reByOrder("last_update")>
+							<img src="img/travel_button_newest.png">
+							最新发布
+						</li>
+						<li class="col-1" ng-click=reByOrder("price")>
+							<img src="img/travel_button_cheapest.png">
+							价格最低
+						</li>
+					</ul>
+				</div>
+				<div class="info_btn" >
+					<ul class="control-group shelf_btn" id="kinds">
+						<li ng-repeat="driver in drivers" ng-click="reByLabel(driver)"><a href="#">{{driver}}</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="xianzhi_div">
+				<ul class="list xianzhi_info" ng-repeat="driver_detail in drivers_details">
+					<!-- ng-repeat="idle in idles" -->
+					<li data-selected="selected" href="#about_section" class="grid">
+						<div class="goods_img col-0">
+							<img src="{{driver_detail.image}}" >
+						</div>
+						<div class="goods_info col-1">
+							<p>{{driver_detail.name}}</p>
+							<a href="#about_section" class="name_info">{{driver_detail.shop_name}}</a>
+							<div class="grid icon_grid">
+								<div class="col-1">
+									<img src="img/eye-icon.png" ><label class="read_number">{{driver_detail.view_number}}人已阅览</label>
+								</div>
+								<div class="col-1 prices">
+									<del class="previous_price">￥{{driver_detail.original_price}}&nbsp;</del>
+									<label class="after_price">￥{{driver_detail.price}}</label>
+								</div>
+							</div>
+							<div class="grid discount">
+								<div class="col-1">
+									<img src="img/youhui.png"><label>凭借悠悠万能优惠卡减免{{driver_detail.discount}}元</label>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<div class="alert_loc">
+		啊哦！请先选择校区╯ω╰
+	</div>
+	</article>
+</section>
+<script type="text/javascript">
+var section = $("#driver_section")[0];
+angular.element(section).injector().invoke(function($compile) {
+    var scope = angular.element(section).scope();
+    $compile(section)(scope);
+});
+</script>

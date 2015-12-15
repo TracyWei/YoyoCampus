@@ -1,0 +1,72 @@
+<section id="homepage_section" class="active" ng-controller="HomeFuckController">
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <header class="yo-header">
+        <nav class="left locationNav">
+            <a href="#choose-campus_section" data-target="section">
+                <i class="icon location">
+                </i>
+                <label data-ng-init="load()" class="header-label">我的校区</label>
+            </a>
+        </nav>
+        <nav class="right">
+            <a href="#homepage-search_section" data-target="section">
+                <i class="icon search"></i>
+            </a>
+        </nav>
+    </header>
+    <article class="active" data-scroll="true">
+        <div id="slider_test" class="slider">
+            <div class="mySliderZone" >
+                <div class="sliderPic"><p>1</p></div>
+                <div class="sliderPic"><p>2</p></div>
+                <div class="sliderPic"><p>3</p></div>
+                <div class="sliderPic"><p>4</p></div>
+            </div>
+        </div>
+        <div class="kinds">
+            <div class="grid onerow">
+                <div class="onekind col-1" ng-click="click_idle111()">
+                    <div class=" onekind-pic"><a href="#xianzhi_section" data-target="section"><img src="img/homepage_btn_market.png"></a></div>
+                    <div class=" onekind-word" ><label>闲置</label></div>
+                </div>
+                <div class="onekind col-1" ng-click="click_travel()">
+                    <div class=" onekind-pic"><a href="#travel_section" data-target="section"><img src="img/homepage_btn_travel.png"></a></div>
+                    <div class=" onekind-word"><label>旅游</label></div>
+                </div>
+                <div class="onekind col-1" ng-click="click_driver()">
+                    <div class=" onekind-pic"><a href="#driver_section" data-target="section"><img src="img/homepage_btn_driving school.png"></a></div>
+                    <div class=" onekind-word"><label>驾校</label></div>
+                </div>
+            </div>
+            <div class="grid onerow">
+                <div class="onekind col-1" ng-click="click_cloth()">
+                    <div class="onekind-pic"><a href="#clothes_section" data-target="section"><img src="img/homepage_btn_clothing.png"></a></div>
+                    <div class="onekind-word"><label>班服</label></div>
+                </div>
+                <div class="onekind col-1" ng-click="click_study()">
+                    <div class="onekind-pic"><a href="#study_section" data-target="section"><img src="img/homepage_btn_abroad.png"></a></div>
+                    <div class=" onekind-word"><label>留学</label></div>
+                </div>
+                <div class="onekind col-1" ng-click="click_personalShop()">
+                    <div class="onekind-pic"><a href="#personalShop_section" data-target="section"><img src="img/homgpage_btn_personal shop.png"></a></div>
+                    <div class=" onekind-word"><label>个人小店</label></div>
+                </div>
+            </div>
+        </div>
+        <!-- <p>{{test}}</p> -->
+    </article>
+    <footer class="yoyo-footer">
+        <a  href="#" data-target="article"  class="active"><div class="icon home footer-color"></div><p class="myp">主页</p></a>
+        <a  href="#" data-target="article"><div class="icon drawer-3 footer-color"></div><p class="myp">商家</p></a>
+        <a  href="#" id="layout-btn-getmore"><div class="icon user footer-color"></div><p class="myp">个人</p></a>
+    </footer>
+</section>
+
+<script type="text/javascript">
+console.log("home recompile")
+var section = $("#homepage_section")[0];
+angular.element(section).injector().invoke(function($compile) {
+    var scope = angular.element(section).scope();
+    $compile(section)(scope);
+});  
+</script>

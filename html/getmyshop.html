@@ -1,0 +1,50 @@
+<!DOCTYPE >
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人—申请店铺</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="css/Jingle.css">
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="css/log.css">
+	</head>
+<body>
+	<div id="section_container"><!--页面容器-->
+		<section id="index_section" class="active shop-section">
+			<header class="yo-header">
+				<h1 class="title myfontsize">个人中心</h1>
+			</header>
+			<footer class="yoyo-footer">
+				<a  href="#" data-target="article" ><div class="icon home footer-color"></div><p class="myp">主页</p></a>
+				<a  href="#" data-target="article"><div class="icon drawer-3 footer-color"></div><p class="myp">商家</p></a> 
+				<a  href="#" id="layout-btn-getmore" class="active"><div class="icon user footer-color"></div><p class="myp">个人</p></a>
+			</footer>
+			<article id="personal-center" class="active">
+				<div class="portrait">
+					<div class="put-portrait"></div>
+					<div class="show-username"><p>John</p></div>
+				</div>
+				<div class="list-info">
+					<ul class="list">
+						<li><span><img src="img/shop-icon1.png"></span><span> &nbsp;我的闲置</span></li>
+						<li><span><img src="img/shop-icon2.png"></span><span> &nbsp;申请店铺</span></li>
+						<li><span><img src="img/shop-icon3.png"></span><span> &nbsp;我的收藏</span></li>
+						<li><span><img src="img/shop-icon4.png"></span><span> &nbsp;设置</span></li>
+						<li><span><img src="img/shop-icon5.png"></span><span> &nbsp;关于</span></li>
+					</ul>
+				</div>
+			</article>
+		</section>
+	</div>
+	<script type="text/javascript" src="js/lib/zepto.js"></script>
+	<script type="text/javascript" src="js/lib/iscroll.js"></script>
+	<script type="text/javascript" src="js/lib/template.min.js"></script>
+	<script type="text/javascript" src="js/lib/Jingle.debug.js"></script>
+	<!---PC端测试时需要这个文件，将click事件模拟成touch事件，正式上线删除该js文件即可-->
+	<script type="text/javascript" src="js/lib/zepto.touch2mouse.js"></script>
+	<!--- app -->
+	<script type="text/javascript" src="js/app/app.js"></script>
+</body>
+</html>
